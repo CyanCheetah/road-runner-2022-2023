@@ -195,7 +195,10 @@ public class CyanMoreLeftTwo extends LinearOpMode {
 
 
 // free NBA Yungboy
-
+        Trajectory zero = drive.trajectoryBuilder(new Pose2d())
+                .forward(2)
+                .build();
+        drive.followTrajectory(zero);
         if(tagOfInterest==null || tagOfInterest.id==left){
 
 
