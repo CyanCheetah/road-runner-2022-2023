@@ -114,6 +114,7 @@ public class CyanCheetahOp extends LinearOpMode {
 
         servo1 = hardwareMap.get(CRServo.class, "servo1");
         ElevatorMotor = hardwareMap.get(DcMotor.class, "ElevatorMotor");
+
         //    shooter= hardwareMap.get(DcMotor.class, "shooter");
 
         frontl.setDirection(DcMotor.Direction.FORWARD);
