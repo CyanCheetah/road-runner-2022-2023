@@ -288,6 +288,5 @@ public class CyanCheetahOp extends LinearOpMode {
 
 
 
-/*
-Final Notes from Andy: Apressed sets the slide puller to optimum pickup, Bpressed sets slide puller to optimum travel and same concept with elevator motors just with Xpressed and Ypressed. Just need to do cleanup and redo elevator motors since we added another one
+
 */
